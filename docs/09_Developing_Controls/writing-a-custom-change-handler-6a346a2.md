@@ -6,7 +6,7 @@ If no default change handler is available for your use case, you need to impleme
 
 There are default change handlers available to enable simple controls, for example, for the *move*, *reveal* and *remove* actions. If no default change handler is available, you need to implement your own custom change handler.
 
-Changes to the UI are stored as individual files called *UI Changes*. They encode the change in a delta format, which means that any subsequent \(developer\) changes to any properties that are not directly affected by this particular change will be visible in the application.These files are stored in the layered repository on several possible back ends in a JSON format.
+Changes to the UI are stored as individual files called *UI Changes*. They encode the change in a delta format, which means that any subsequent \(developer\) changes to any properties that are not directly affected by this particular change will be visible in the application. These files are stored in the layered repository on several possible back ends in a JSON format.
 
 > ### Note:  
 > **Design the Semantics of Your Change**
